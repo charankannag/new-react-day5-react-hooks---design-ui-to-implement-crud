@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+	<h1 id="title">DOM Manipulation with Forms</h1>
+	<p id="description"> This Task has been completed using DOM </p>
+	<b><form id="form">
+		<div class="form-group">
+		<label for="firstName">First Name :</label>
+		<input id="first-name" name="firstName" type="text" aria-label="First name" class="form-control"  placeholder="First" required>		
+		<br><br>
+		<label for="lastName">Last Name :</label>
+		<input id="last-name" name="lastName" type="text" aria-label="Last name" class="form-control"  placeholder="Last" required>
+		<br><br>
+		<label class="input-group-text">Pincode : </label>
+		<input id="pincode" name="pincode" type="text" aria-label="Pincode" class="form-control"  placeholder="Pincode" required>
+		<br><br>
+			<label for="address">Address : </label>
+			<textarea id="address" name="address" class="form-control"  placeholder="Address" required></textarea>
+		</div><br>
+
+		<label for="gender">Gender:</label>
+		<input type="radio" id="male" name="gender" value="Male">
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" value="Female">
+		<label for="female">Female</label><br><br>
+
+		<label>Food:</label>
+		<input type="checkbox" name="food[]" value="Pizza">Chicken Briyani
+		<input type="checkbox" name="food[]" value="Burger">Chicken Dragon
+		<input type="checkbox" name="food[]" value="Pasta">Prawn gravy
+		<input type="checkbox" name="food[]" value="Salad">Fish Fry
+		<input type="checkbox" name="food[]" value="Sandwich">Chicken Lollipop<br><br>
+    
+    <label for="state">State:</label>
+		<input type="text" id="state" name="state" required><br><br>
+		
+
+		<label for="country">Country:</label>
+		<input type="text" id="country" name="country"><br><br>
+
+		<input id="submit" class="btn & btn-primary" type="submit" value="Submit" >
+	</form><br><br>
+
+	<table class="table"id="myTable" border="2">
+		<thead>
+		<tr>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Pincode</th>
+			<th>Address</th>
+			<th>Gender</th>
+			<th>Food</th>
+			<th>State</th>
+			<th>Country</th>
+		</tr>
+	</thead>
+	<tbody>
+
+	</tbody>
+	</table>
+</b>
+<script src="script.js"></script>
+<script src = "http://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+	

@@ -1,0 +1,10 @@
+.BG{
+    border-color: grey;
+    background-color: grey;
+  }
+  .table{
+    border-collapse: collapse;
+    border-color: black;
+    border: bold;
+  }
+  
